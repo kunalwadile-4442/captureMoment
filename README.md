@@ -38,5 +38,8 @@ Make sure you have the following installed on your machine:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/capture-moment.git
-   cd capture-moment
+   [https://github.com/kunalwadile-4442/captureMoment.git]
+   cd photo-filter-app
+   npm start
+   cd backend
+   npm start
