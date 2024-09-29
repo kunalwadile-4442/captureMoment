@@ -1,0 +1,229 @@
+/* Filters.css */
+
+.filters-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.filters-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.filter-button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.filter-button:hover {
+  background-color: #45a049;
+}
+
+/* Camera.css */
+
+/* Camera.css */
+
+.camera-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.capture-button,
+.upload-button {
+  background-color: #008cba;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.capture-button:hover,
+.upload-button:hover {
+  background-color: #005f73;
+}
+
+.captured-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.image-container {
+  position: relative;
+  margin: 10px;
+}
+
+.captured-image {
+  max-width: 150px; /* Adjust the size as needed */
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Camera.css or Gallery.css */
+
+.gallery-container {
+  margin-top: 20px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-item {
+  margin: 10px;
+}
+
+.gallery-image {
+  max-width: 150px; /* Adjust the size as needed */
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Components/Camera.css */
+.camera-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.webcam-wrapper {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.webcam-wrapper video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* App.css */
+.App {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.filters-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+/* App.css */
+
+img {
+  transition: filter 0.5s ease, transform 0.5s ease; /* Add transitions for filter and transform */
+}
+
+/* Optional: Add hover effects on buttons */
+.btn {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+/* App.css */
+.overlay-image {
+  position: absolute;
+  top: 50%; /* Adjust as needed */
+  left: 50%; /* Adjust as needed */
+  transform: translate(-50%, -50%); /* Center the overlay */
+  pointer-events: none; /* Prevent interaction with overlay */
+}/* App.css */
+
+/* Main camera container */
+.camera-container {
+  background: linear-gradient(to bottom right, #f8f9fa, #e9ecef);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Webcam wrapper */
+.webcam-wrapper {
+  position: relative;
+  margin: 0 auto;
+  border: 5px solid #007bff; /* Bootstrap primary color */
+  border-radius: 15px;
+  overflow: hidden; /* Ensures rounded corners work */
+}
+
+/* Capture button styles */
+.capture-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.capture-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  transform: scale(1.05);
+}
+
+/* Overlay image */
+.overlay-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: auto;
+  transform: translate(-50%, -50%); /* Center the overlay */
+  transition: opacity 0.3s;
+}
+
